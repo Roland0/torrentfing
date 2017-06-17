@@ -1,0 +1,12 @@
+#cloud-config
+
+packages:
+ - htop
+
+
+users:
+  - name: roland
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC2H9Pb9nqGT1z7QH13DGA5DkIOZYnvQyK1vbBlwsX0gd7N3YgEqoga2E4A6LMjyjPp7dHFr00V4HMYjX5/V1ejQvjJSuv0OL7r5uOF9h7/15XqME4sV9Tf4l4OJkCRtaAgwfI3k0FXK3d2keXEeEYe6CHlnvpR/S6UxdaWpn1/fDa9G/gyVA7l3AHWp0M0xWIOSV89qEDiok68G6Gk6GsfpPXO1aJ+VZSqZw60DxHxs6fT3w5wotDOGygsnXhojHHOa3S+S3aq0YW1ak6fPgWDom2CwwTIz1sFJwo6Krcf5w3Q6sRZTsUXTPx08iFGh4J0yBJzRYB6VCfw4sMvRhP/A7p1DyF9OOHlqoNxShoE7KVaxYg5G5/8PAMk2plXAtE1bxrsg4MhCpivymrc//QbTrrJnK+sywBTNrWAOklzZka5Vqh8txsY7XbVrHPxooQ0wes9tFlwLULVy7PKW/6QG2F8PmtyUNmHh/fWtVnSvPU9kFhozsz+leJkengBZW01kDztVXgkzEToBzH1EHPcU9THvxxBcDlxqLEFw8R/cECgbQ7iJElt0kxXNGTF9hqpVhbMNvUtpRNiARyebhJ8pbpZocKT7zPVQU+Mni40CbCybsbtMLhD30UHYcyppxFUC9ffzAOuv7VjbB6M2cT7CnFFvKafW49Nt/ZaKnfPkw== roland.sugars@claranet.uk
